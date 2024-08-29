@@ -30,3 +30,6 @@ def read_item(name: str) -> set[str | None]:
 async def root():
     return {"message": "yo bud you need something ?"}
 
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="localhost", port=3000)
