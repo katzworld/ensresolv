@@ -1,1 +1,3 @@
-fastapi[all]
+fastapi
+web3
+eth-ens
